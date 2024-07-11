@@ -17,7 +17,7 @@ include $(DEVKITPPC)/wii_rules
 #---------------------------------------------------------------------------------
 TARGET		:=	$(notdir $(CURDIR))
 BUILD		:=	build
-SOURCES		:=	src/platform/wii src/arm src/core
+SOURCES		:=	src/arm src/core src/platform/wii 
 DATA		:=	
 INCLUDES	:=
 
