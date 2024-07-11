@@ -2,7 +2,7 @@ name: Medusa-Wii
 on:
   push:
     branches:
-    - master
+    - medusa
 jobs:
   build-wii:
     runs-on: ubuntu-latest
