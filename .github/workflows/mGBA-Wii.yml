@@ -12,8 +12,9 @@ jobs:
       uses: actions/checkout@v4
     - name: Compile
       run: |
-        cd src/platform/wii
-        cmake -DCMAKE_TOOLCHAIN_FILE=CMakeToolchain.txt
+        mkdir build
+        cd build
+        cmake -DCMAKE_TOOLCHAIN_FILE=../src/platform/wii/CMakeToolchain.txt
         make
     - name: Upload
       uses: actions/upload-artifact@v4
