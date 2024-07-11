@@ -13,9 +13,8 @@ jobs:
     - name: Compile
       run: |
         cd src/platform/wii
-        cmake -DCMAKE_INSTALL_PREFIX:PATH=/usr ..
+        cmake -DCMAKE_TOOLCHAIN_FILE=CMakeToolchain.txt
         make
-        sudo make install
     - name: Upload
       uses: actions/upload-artifact@v4
       with:
