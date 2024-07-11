@@ -19,7 +19,7 @@ TARGET		:=	$(notdir $(CURDIR))
 BUILD		:=	build
 SOURCES		:=	src/arm src/core src/debugger src/feature src/gb src/gba src/platform/wii src/script src/sm83 src/third-party src/tools src/util
 DATA		:=	
-INCLUDES	:=
+INCLUDES	:=      include
 
 #---------------------------------------------------------------------------------
 # options for code generation
