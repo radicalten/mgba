@@ -6,11 +6,11 @@
 #ifndef M_AUDIO_RESAMPLER_H
 #define M_AUDIO_RESAMPLER_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
-#include <mgba-util/interpolator.h>
+#include "interpolator.h"
 
 struct mAudioBuffer;
 struct mAudioResampler {
