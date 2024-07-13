@@ -10,9 +10,9 @@
 
 CXX_GUARD_START
 
-#include <mgba/core/interface.h>
-#include <mgba/core/timing.h>
-#include <mgba-util/audio-buffer.h>
+#include "interface.h"
+#include "timing.h"
+#include "audio-buffer.h"
 
 #define GB_MAX_SAMPLES 32
 
