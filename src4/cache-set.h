@@ -6,14 +6,14 @@
 #ifndef M_CACHE_SET_H
 #define M_CACHE_SET_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
-#include <mgba/core/bitmap-cache.h>
-#include <mgba/core/map-cache.h>
-#include <mgba/core/tile-cache.h>
-#include <mgba-util/vector.h>
+#include "bitmap-cache.h"
+#include "map-cache.h"
+#include "tile-cache.h"
+#include "vector.h"
 
 DECLARE_VECTOR(mMapCacheSet, struct mMapCache);
 DECLARE_VECTOR(mBitmapCacheSet, struct mBitmapCache);
