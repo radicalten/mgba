@@ -6,11 +6,11 @@
 #ifndef M_BITMAP_CACHE_H
 #define M_BITMAP_CACHE_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
-#include <mgba/core/interface.h>
+#include "interface.h"
 
 DECL_BITFIELD(mBitmapCacheConfiguration, uint32_t);
 DECL_BIT(mBitmapCacheConfiguration, ShouldStore, 0);
