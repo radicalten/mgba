@@ -6,11 +6,11 @@
 #ifndef M_CORE_SYNC_H
 #define M_CORE_SYNC_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
-#include <mgba-util/threading.h>
+#include "threading.h"
 
 struct mCoreSync {
 	int videoFramePending;
