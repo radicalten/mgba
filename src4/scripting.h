@@ -6,7 +6,7 @@
 #ifndef M_SCRIPTING_H
 #define M_SCRIPTING_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
