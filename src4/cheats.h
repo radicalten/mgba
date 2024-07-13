@@ -6,14 +6,14 @@
 #ifndef CHEATS_H
 #define CHEATS_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
-#include <mgba/core/cpu.h>
-#include <mgba/core/log.h>
-#include <mgba-util/table.h>
-#include <mgba-util/vector.h>
+#include "cpu.h"
+#include "log.h"
+#include "table.h"
+#include "vector.h"
 
 enum mCheatType {
 	CHEAT_ASSIGN,
