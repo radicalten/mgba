@@ -6,11 +6,11 @@
 #ifndef CONFIGURATION_H
 #define CONFIGURATION_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
-#include <mgba-util/table.h>
+#include "table.h"
 
 struct VFile;
 
