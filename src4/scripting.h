@@ -11,10 +11,10 @@
 CXX_GUARD_START
 
 #ifdef ENABLE_DEBUGGERS
-#include <mgba/debugger/debugger.h>
+#include "debugger.h"
 #endif
-#include <mgba/script/macros.h>
-#include <mgba/script/types.h>
+#include "macros.h"
+#include "types.h"
 
 struct mCore;
 struct mScriptTextBuffer;
