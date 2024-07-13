@@ -6,13 +6,13 @@
 #ifndef GBA_VIDEO_H
 #define GBA_VIDEO_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
-#include <mgba/core/log.h>
-#include <mgba/core/timing.h>
-#include <mgba/gba/interface.h>
+#include "log.h"
+#include "timing.h"
+#include "interface.h"
 
 mLOG_DECLARE_CATEGORY(GBA_VIDEO);
 
