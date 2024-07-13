@@ -12,21 +12,21 @@
 #include <unistd.h>
 #include <wiiuse/wpad.h>
 
-#include <mgba-util/common.h>
+#include <include/common.h>
 
-#include <mgba/core/core.h>
+#include <include/core.h>
 #include "feature/gui/gui-runner.h"
-#include <mgba/internal/gb/video.h>
-#include <mgba/internal/gba/audio.h>
-#include <mgba/internal/gba/gba.h>
-#include <mgba/internal/gba/input.h>
-#include <mgba-util/audio-resampler.h>
-#include <mgba-util/gui.h>
-#include <mgba-util/gui/file-select.h>
-#include <mgba-util/gui/font.h>
-#include <mgba-util/gui/menu.h>
-#include <mgba-util/memory.h>
-#include <mgba-util/vfs.h>
+#include <include/video.h>
+#include <include/audio.h>
+#include <include/gba.h>
+#include <include/input.h>
+#include <include/audio-resampler.h>
+#include <include/gui.h>
+#include <include/file-select.h>
+#include <include/font.h>
+#include <include/menu.h>
+#include <include/memory.h>
+#include <include/vfs.h>
 
 #ifdef WIIDRC
 #include <wiidrc/wiidrc.h>
