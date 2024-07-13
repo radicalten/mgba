@@ -6,7 +6,7 @@
 #ifndef CONVOLVE_H
 #define CONVOLVE_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
