@@ -6,7 +6,7 @@
 #ifndef VFS_H
 #define VFS_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
