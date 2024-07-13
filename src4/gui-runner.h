@@ -10,12 +10,12 @@
 
 CXX_GUARD_START
 
-#include <mgba/core/config.h>
-#include "feature/gui/remap.h"
-#include <mgba/gba/interface.h>
-#include <mgba-util/circle-buffer.h>
-#include <mgba-util/gui.h>
-#include <mgba-util/threading.h>
+#include "config.h"
+#include "remap.h"
+#include "interface.h"
+#include "circle-buffer.h"
+#include "gui.h"
+#include "threading.h"
 
 enum mGUIInput {
 	mGUI_INPUT_INCREASE_BRIGHTNESS = GUI_INPUT_USER_START,
