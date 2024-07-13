@@ -6,7 +6,7 @@
 #ifndef GUI_H
 #define GUI_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
