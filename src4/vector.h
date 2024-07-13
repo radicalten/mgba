@@ -6,7 +6,7 @@
 #ifndef VECTOR_H
 #define VECTOR_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
