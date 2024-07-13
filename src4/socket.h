@@ -6,7 +6,7 @@
 #ifndef SOCKET_H
 #define SOCKET_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
@@ -15,7 +15,7 @@ CXX_GUARD_START
 #endif
 
 #ifdef _WIN32
-#include <ws2tcpip.h>
+#include "ws2tcpip.h"
 
 #define SOCKET_FAILED(s) ((s) == INVALID_SOCKET)
 typedef SOCKET Socket;
