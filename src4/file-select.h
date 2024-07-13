@@ -6,11 +6,11 @@
 #ifndef GUI_FILE_CHOOSER_H
 #define GUI_FILE_CHOOSER_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
-#include <mgba-util/gui.h>
+#include "gui.h"
 
 struct VFile;
 
