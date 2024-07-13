@@ -6,7 +6,7 @@
 #ifndef M_CORE_TIMING
 #define M_CORE_TIMING
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
