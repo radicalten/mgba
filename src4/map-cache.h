@@ -10,8 +10,8 @@
 
 CXX_GUARD_START
 
-#include <mgba/core/interface.h>
-#include <mgba/core/tile-cache.h>
+#include "interface.h"
+#include "tile-cache.h"
 
 DECL_BITFIELD(mMapCacheConfiguration, uint32_t);
 DECL_BIT(mMapCacheConfiguration, ShouldStore, 0);
