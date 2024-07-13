@@ -6,13 +6,13 @@
 #ifndef GB_SIO_H
 #define GB_SIO_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
-#include <mgba/core/log.h>
-#include <mgba/core/timing.h>
-#include <mgba/gb/interface.h>
+#include "log.h"
+#include "timing.h"
+#include "interface.h"
 
 #define MAX_GBS 2
 
