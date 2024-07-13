@@ -6,15 +6,15 @@
 #ifndef GBA_AUDIO_H
 #define GBA_AUDIO_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
-#include <mgba/core/cpu.h>
-#include <mgba/core/interface.h>
-#include <mgba/core/log.h>
-#include <mgba/internal/gb/audio.h>
-#include <mgba-util/circle-buffer.h>
+#include "cpu.h"
+#include "interface.h"
+#include "log.h"
+//#include <mgba/internal/gb/audio.h>
+"circle-buffer.h"
 
 #define GBA_AUDIO_FIFO_SIZE 8
 #define GBA_MAX_SAMPLES 16
