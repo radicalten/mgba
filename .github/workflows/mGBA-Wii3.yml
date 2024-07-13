@@ -1,4 +1,4 @@
-dname: mGBA-Wii
+dname: mGBA-Wii3
 on:
   push:
     branches:
