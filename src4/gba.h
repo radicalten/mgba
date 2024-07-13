@@ -6,18 +6,18 @@
 #ifndef GBA_H
 #define GBA_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
-#include <mgba/core/log.h>
-#include <mgba/core/timing.h>
+#include "log.h"
+#include "timing.h"
 
-#include <mgba/internal/gba/memory.h>
-#include <mgba/internal/gba/video.h>
-#include <mgba/internal/gba/audio.h>
-#include <mgba/internal/gba/sio.h>
-#include <mgba/internal/gba/timer.h>
+#include "memory.h"
+#include "video.h"
+#include "audio.h"
+#include "sio.h"
+#include "timer.h"
 
 #define GBA_ARM7TDMI_FREQUENCY 0x1000000U
 
