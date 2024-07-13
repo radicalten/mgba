@@ -6,12 +6,12 @@
 #ifndef PATCH_FAST_H
 #define PATCH_FAST_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
-#include <mgba-util/patch.h>
-#include <mgba-util/vector.h>
+#include "patch.h"
+#include "vector.h"
 
 #define PATCH_FAST_EXTENT 128
 
