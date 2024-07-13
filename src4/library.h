@@ -6,7 +6,7 @@
 #ifndef M_LIBRARY_H
 #define M_LIBRARY_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
