@@ -6,11 +6,11 @@
 #ifndef M_CORE_CONFIG_H
 #define M_CORE_CONFIG_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
-#include <mgba-util/configuration.h>
+#include "configuration.h"
 
 struct mCoreConfig {
 	struct Configuration configTable;
