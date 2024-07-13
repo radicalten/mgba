@@ -6,13 +6,13 @@
 #ifndef M_CORE_REWIND_H
 #define M_CORE_REWIND_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
-#include <mgba-util/vector.h>
+#include "vector.h"
 #ifndef DISABLE_THREADING
-#include <mgba-util/threading.h>
+#include "threading.h"
 #endif
 
 DECLARE_VECTOR(mCoreRewindPatches, struct PatchFast);
