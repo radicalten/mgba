@@ -6,7 +6,7 @@
 #ifndef CIRCLE_BUFFER_H
 #define CIRCLE_BUFFER_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
