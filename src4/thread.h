@@ -6,11 +6,11 @@
 #ifndef M_CORE_THREAD_H
 #define M_CORE_THREAD_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
-#include <mgba/core/log.h>
+#include "log.h"
 
 struct mCoreThread;
 struct mCore;
