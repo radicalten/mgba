@@ -6,7 +6,7 @@
 #ifndef UTIL_MATH_H
 #define UTIL_MATH_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
