@@ -6,13 +6,13 @@
 #ifndef PNG_IO_H
 #define PNG_IO_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
 #ifdef USE_PNG
 
-#include <mgba-util/image.h>
+#include "image.h"
 
 // png.h defines its own version of restrict which conflicts with mGBA's.
 #ifdef restrict
