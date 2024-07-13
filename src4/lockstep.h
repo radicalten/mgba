@@ -6,7 +6,7 @@
 #ifndef SIO_LOCKSTEP_H
 #define SIO_LOCKSTEP_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
