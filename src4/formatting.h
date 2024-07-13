@@ -6,7 +6,7 @@
 #ifndef FORMATTING_H
 #define FORMATTING_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
