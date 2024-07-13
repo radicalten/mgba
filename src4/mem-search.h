@@ -6,11 +6,11 @@
 #ifndef CORE_MEM_SEARCH_H
 #define CORE_MEM_SEARCH_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
-#include <mgba-util/vector.h>
+#include "vector.h"
 
 enum mCoreMemorySearchType {
 	mCORE_MEMORY_SEARCH_INT,
