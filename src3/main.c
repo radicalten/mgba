@@ -14,19 +14,19 @@
 
 #include <src3/include/common.h>
 
-#include <src3/include/core.h>
+#include <mgba/src3/include/core.h>
 #include "feature/gui/gui-runner.h"
-#include <src3/include/video.h>
-#include <src3/include/audio.h>
-#include <src3/include/gba.h>
-#include <src3/include/input.h>
-#include <src3/include/audio-resampler.h>
-#include <src3/include/gui.h>
-#include <src3/include/file-select.h>
-#include <src3/include/font.h>
-#include <src3/include/menu.h>
-#include <src3/include/memory.h>
-#include <src3/include/vfs.h>
+#include <mgba/src3/include/video.h>
+#include <mgba/src3/include/audio.h>
+#include <mgba/src3/include/gba.h>
+#include <mgba/src3/include/input.h>
+#include <mgba/src3/include/audio-resampler.h>
+#include <mgba/src3/include/gui.h>
+#include <mgba/src3/include/file-select.h>
+#include <mgba/src3/include/font.h>
+#include <mgba/src3/include/menu.h>
+#include <mgba/src3/include/memory.h>
+#include <mgba/src3/include/vfs.h>
 
 #ifdef WIIDRC
 #include <wiidrc/wiidrc.h>
