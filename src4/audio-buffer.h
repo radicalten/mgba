@@ -6,11 +6,11 @@
 #ifndef M_AUDIO_BUFFER_H
 #define M_AUDIO_BUFFER_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
-#include <mgba-util/circle-buffer.h>
+#include "circle-buffer.h"
 
 struct mAudioBuffer {
 	struct mCircleBuffer data;
