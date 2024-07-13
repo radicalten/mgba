@@ -5,7 +5,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 //#include <mgba-util/gui/font.h>
 #include "font-metrics.h"
-#include "icons.h"
+// #include "icons.h"
 #include "font.h"
 
 #include <malloc.h>
