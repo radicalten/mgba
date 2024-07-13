@@ -6,11 +6,11 @@
 #ifndef GBA_TIMER_H
 #define GBA_TIMER_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
-#include <mgba/core/timing.h>
+#include "timing.h"
 
 DECL_BITFIELD(GBATimerFlags, uint32_t);
 DECL_BITS(GBATimerFlags, PrescaleBits, 0, 4);
