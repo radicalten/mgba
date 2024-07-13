@@ -17,9 +17,9 @@ include $(DEVKITPPC)/wii_rules
 #---------------------------------------------------------------------------------
 TARGET		:=	$(notdir $(CURDIR))
 BUILD		:=	build
-SOURCES		:=	src/arm src/core src/debugger src/feature src/gb src/gba src/platform/wii src/script src/sm83 src/third-party src/tools src/util
+SOURCES		:=	src2
 DATA		:=	
-INCLUDES	:=      include/mgba
+INCLUDES	:=      
 
 #---------------------------------------------------------------------------------
 # options for code generation
