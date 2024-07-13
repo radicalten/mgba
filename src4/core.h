@@ -6,20 +6,20 @@
 #ifndef M_CORE_H
 #define M_CORE_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
-#include <mgba/core/config.h>
+#include "config.h"
 #ifdef ENABLE_VFS
-#include <mgba/core/directories.h>
+#include "directories.h"
 #endif
 #ifndef MINIMAL_CORE
-#include <mgba/core/input.h>
+#include "input.h"
 #endif
-#include <mgba/core/interface.h>
+#include "interface.h"
 #ifdef ENABLE_DEBUGGERS
-#include <mgba/debugger/debugger.h>
+#include "debugger.h"
 #endif
 
 enum mPlatform {
