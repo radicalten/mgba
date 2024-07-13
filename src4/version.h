@@ -10,7 +10,7 @@
 extern "C" {
 #endif
 
-#include <mgba-util/dllexports.h>
+#include "dllexports.h"
 
 extern MGBA_EXPORT const char* const gitCommit;
 extern MGBA_EXPORT const char* const gitCommitShort;
