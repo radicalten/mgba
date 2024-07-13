@@ -6,15 +6,15 @@
 #ifndef ELF_READ_H
 #define ELF_READ_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
 #ifdef USE_ELF
 
-#include <libelf.h>
+#include "libelf.h"
 
-#include <mgba-util/vector.h>
+#include "vector.h"
 
 struct ELF;
 struct VFile;
