@@ -6,12 +6,12 @@
 #ifndef GUI_MENU_H
 #define GUI_MENU_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
-#include <mgba-util/gui.h>
-#include <mgba-util/vector.h>
+#include "gui.h"
+#include "vector.h"
 
 #define GUI_V_V (struct GUIVariant) { .type = GUI_VARIANT_VOID }
 #define GUI_V_U(U) (struct GUIVariant) { .type = GUI_VARIANT_UNSIGNED, .v.u = (U) }
