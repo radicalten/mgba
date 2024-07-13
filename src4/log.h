@@ -10,7 +10,7 @@
 
 CXX_GUARD_START
 
-#include <mgba-util/table.h>
+#include "table.h"
 
 enum mLogLevel {
 	mLOG_FATAL = 0x01,
