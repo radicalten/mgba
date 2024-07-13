@@ -6,7 +6,7 @@
 #ifndef RING_FIFO_H
 #define RING_FIFO_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
