@@ -78,7 +78,7 @@ typedef intptr_t ssize_t;
 #include <sys/syslimits.h>
 #endif
 
-#include <mgba-util/dllexports.h>
+#include "dllexports.h"
 
 #ifndef SSIZE_MAX
 #define SSIZE_MAX ((ssize_t) (SIZE_MAX >> 1))
