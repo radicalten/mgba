@@ -1,4 +1,4 @@
-name: mGBA-Wii4
+name: mGBA-Wii5
 on:
   push:
     branches:
@@ -12,7 +12,7 @@ jobs:
       uses: actions/checkout@v4
     - name: Compile
       run: |
-        make -f Makefile.wiiogc4 -j$(nproc)
+        make -f Makefile.wiiogc5 -j$(nproc)
     - name: Upload
       uses: actions/upload-artifact@v4
       with:
