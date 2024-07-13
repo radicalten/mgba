@@ -6,12 +6,12 @@
 #ifndef CORE_INTERFACE_H
 #define CORE_INTERFACE_H
 
-#include <mgba-util/common.h>
+#include "common.h"
 
 CXX_GUARD_START
 
-#include <mgba-util/image.h>
-#include <mgba-util/vector.h>
+#include "image.h"
+#include "vector.h"
 
 struct mCore;
 struct mStateExtdataItem;
