@@ -11,8 +11,8 @@
 CXX_GUARD_START
 
 // TODO: Fix layering violation
-#include <mgba/core/input.h>
-#include <mgba-util/vector.h>
+#include "input.h"
+#include "vector.h"
 
 #define MAX_KEYBOARD_LEN 256
 #define MAX_KEYBOARD_TITLE_LEN 128
