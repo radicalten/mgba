@@ -13,8 +13,9 @@ CXX_GUARD_START
 #include "cpu.h"
 #include "interface.h"
 #include "log.h"
+#include "gbaudio.h"
 //#include <mgba/internal/gb/audio.h>
-"circle-buffer.h"
+#include "circle-buffer.h"
 
 #define GBA_AUDIO_FIFO_SIZE 8
 #define GBA_MAX_SAMPLES 16
